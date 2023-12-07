@@ -1,0 +1,12 @@
+create directory first
+go inside directory
+git init -->create empty git repo  (.git)
+create a file 
+git status "shows untracked file means givEs instructions to add u r filename " 
+git add filename "git add . (. dot indicates all files)"
+git status "shows tracked didn't commit any filename"
+git commit -m "gives specific massage"
+git log "display history of repo"
+git clone url ex:htpt//.github/sample.git  "ones u clone don't nead alwaysi use Git clone command"
+git push url "update local repo to central repo"
+ 

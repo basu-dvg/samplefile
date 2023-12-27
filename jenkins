@@ -1,9 +1,15 @@
 pipeline{
-stages{
-stage(checkout){
-steps{
-echo hello
-} 
-}
-}
+    agent any
+    stages{
+        stage('clone'){
+            steps{
+                echo "welcome to pg"
+            }
+        }
+        stage('test'){
+            steps{
+                echo "hello'"
+            }
+        }
+    }
 }
